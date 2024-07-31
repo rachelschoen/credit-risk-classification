@@ -6,21 +6,29 @@ The goal of this analysis is to develop a supervised machine learning model to p
 
 The stages of the machine learning process in this analysis include:
 
-    - Splitting the data into labels and features, with the loan status (healthy or high-risk) as the label and the remaining seven columns as features.
-    - Dividing the data into training and testing sets.
-    - Creating a Logistic Regression model using sklearn.
-        - Logistic Regression was chosen as a binary classifier to classify loans as either healthy or high-risk.
-    - Fitting the model with the training data.
-    - Making predictions using the test data.
-    - Evaluating the model’s performance using accuracy, precision, and recall scores.
+- Splitting the data into labels and features, with the loan status (healthy or high-risk) as the label and the remaining seven columns as features.
+- Dividing the data into training and testing sets.
+- Creating a Logistic Regression model using sklearn.
+    - Logistic Regression was chosen as a binary classifier to classify loans as either healthy or high-risk.
+- Fitting the model with the training data.
+- Making predictions using the test data.
+- Evaluating the model’s performance using accuracy, precision, and recall scores.
 
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
+The following is a description of the Logistic Regression Model Accuracy, Precision, and Recall scores.
 
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+- Accuracy: The overall accuracy of the model is 0.99, meaning it correctly classifies 99% of the instances.
+
+- Precision
+    - Healthy Loan (class 0): 1.00, or 100%
+    - High-Risk Loan (class 1): 0.85, or 85%
+
+- Recall
+    - Healthy Loan (class 0): 0.99, or 99%
+    - High-Risk Loan (class 1): 0.91, or 91%
+
 
 ## Summary
 
