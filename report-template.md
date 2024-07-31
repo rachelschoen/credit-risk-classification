@@ -4,7 +4,7 @@
 
 The goal of this analysis is to develop a supervised machine learning model to predict whether a loan is healthy (class 0) or high-risk (class 1). We will utilize logistic regression as a binary classifier for our model. The analysis was performed on financial data, with a specific focus on loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. The objective is to classify the loan status as either healthy (0) or high-risk (1). The dataset used consists of 77,500 entries in a CSV file.
 
-The stages of the machine learning process in this analysis included:
+The stages of the machine learning process in this analysis include:
 
     - Splitting the data into labels and features, with the loan status (healthy or high-risk) as the label and the remaining seven columns as features.
     - Dividing the data into training and testing sets.
