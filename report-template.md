@@ -2,13 +2,18 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+The goal of this analysis is to develop a supervised machine learning model to predict whether a loan is healthy (class 0) or high-risk (class 1). We will utilize logistic regression as a binary classifier for our model. The analysis was performed on financial data, with a specific focus on loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. The objective is to classify the loan status as either healthy (0) or high-risk (1). The dataset used consists of 77,500 entries in a CSV file.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+The stages of the machine learning process in this analysis included:
+
+    - Splitting the data into labels and features, with the loan status (healthy or high-risk) as the label and the remaining seven columns as features.
+    - Dividing the data into training and testing sets.
+    - Creating a Logistic Regression model using sklearn.
+        - Logistic Regression was chosen as a binary classifier to classify loans as either healthy or high-risk.
+    - Fitting the model with the training data.
+    - Making predictions using the test data.
+    - Evaluating the model’s performance using accuracy, precision, and recall scores.
+
 
 ## Results
 
