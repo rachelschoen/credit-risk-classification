@@ -32,9 +32,8 @@ The following is a description of the Logistic Regression Model Accuracy, Precis
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+The logistic regression model performs very well in predicting healthy loans (class 0), with a precision of 1.00 and recall of 0.99. For high-risk loans (class 1), the model also performs well, achieving a precision of 0.85 and recall of 0.91.
 
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+The lower precision and recall for predicting high-risk loans (class 1) may be due to our imbalanced dataset, where the support test data for class 1 is only 619 compared to 18,765 for class 0. This imbalance leaves room for improvement in predicting high-risk loans, as the model has fewer high-risk loans to learn from compared to the number of healthy loans. Adding more high-risk loan data could enhance the model's performance.
 
-If you do not recommend any of the models, please justify your reasoning.
+In loan classification, preventing high-risk loans is more critical than approving loans, as the financial loss from a defaulted loan can outweigh the interest earned from a healthy loan. The overall accuracy of the model is a high 99%.
